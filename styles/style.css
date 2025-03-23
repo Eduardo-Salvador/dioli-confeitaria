@@ -6,15 +6,6 @@
     --cor-marrom-escuro: #7B410E;
 }
 
-@font-face {
-    font-family: 'Titulo';
-    src: url('fonts/Vermina-Regular.ttf') format('truetype');
-    font-family: 'Texto';
-    src: url('fonts\Agrandir-WideLight.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body, html {
     margin: 0;  
     padding: 0; 
@@ -26,10 +17,65 @@ body, html {
     padding: 0px, 0px;
     display: flex;
     align-items: center; 
-    justify-content: center;
+    justify-content: space-between;
     height: 95px; 
 }
 
 .logo-header{
-    height: 90px;
+    height: 95px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.header-esquerda{
+    color: var(--cor-marrom-intermediario);
+    display: flex;
+    margin-left: 150px;
+}
+
+a:link {
+    color: inherit; 
+    text-decoration: none;  
+}
+
+.ancoras-esquerda{
+    margin-left: 50px;
+}
+
+.ancoras-direita{
+    margin-right: 40px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.header-direita{
+    color: inherit; 
+    text-decoration: none;
+    margin-right: 110px;
+}
+
+.corpo-principal {
+ background-color: var(--cor-marrom-claro);
+}
+
+.ancoras-esquerda:hover {
+    transform: scale(1.05); 
+    opacity: 0.8; 
+}
+
+.ancoras-direita:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+.ancoras-direita-perfil:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+
+.slogan-size{
+    font-size: 22px;
+    padding: 20px;
 }
