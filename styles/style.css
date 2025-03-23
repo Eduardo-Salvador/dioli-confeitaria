@@ -1,0 +1,35 @@
+:root {
+    --cor-azul-escuro: #91C1D2; 
+    --cor-azul-claro: #C4DDE8;
+    --cor-marrom-claro: #D49244;
+    --cor-marrom-intermediario: #A65209;
+    --cor-marrom-escuro: #7B410E;
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('fonts/Vermina-Regular.ttf') format('truetype');
+    font-family: 'Texto';
+    src: url('fonts\Agrandir-WideLight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;  
+    padding: 0; 
+}
+
+.header-padrao {
+    background-color: var(--cor-azul-escuro);
+    text-align: center;
+    padding: 0px, 0px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 95px; 
+}
+
+.logo-header{
+    height: 90px;
+}
