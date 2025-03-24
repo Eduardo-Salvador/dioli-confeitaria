@@ -12,7 +12,7 @@ body, html {
 }
 
 .header-padrao {
-    background-color: var(--cor-azul-escuro);
+    background-color: var(--cor-marrom-claro);
     text-align: center;
     padding: 0px, 0px;
     display: flex;
@@ -29,7 +29,7 @@ body, html {
 }
 
 .header-esquerda{
-    color: var(--cor-marrom-intermediario);
+    color: white;
     display: flex;
     margin-left: 150px;
 }
@@ -39,8 +39,12 @@ a:link {
     text-decoration: none;  
 }
 
+a:visited{
+    color: inherit;
+}
+
 .ancoras-esquerda{
-    margin-left: 50px;
+    margin-left: 50px; 
 }
 
 .ancoras-direita{
@@ -57,7 +61,7 @@ a:link {
 }
 
 .corpo-principal {
- background-color: var(--cor-marrom-claro);
+ background-color: var(--cor-azul-claro);
 }
 
 .ancoras-esquerda:hover {
@@ -78,4 +82,5 @@ a:link {
 .slogan-size{
     font-size: 22px;
     padding: 20px;
+    color: var(--cor-marrom-intermediario);
 }
