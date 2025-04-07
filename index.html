@@ -3,59 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dioli Confeitária</title>
+    <title>Dioli Confeitária - O melhor pedaço do seu dia!</title>
     <link rel="stylesheet" href="styles\style.css">
-    <style>
-        @font-face {
-        font-family: 'Titulo';
-        src: url('fonts/Vermina.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-        }
-
-        @font-face {
-        font-family: 'Texto';
-        src: url('fonts/Agrandir-WideLight.otf') format('opentype');
-        font-weight: normal;
-        font-style: normal;
-        }
-
-        .ancoras-esquerda{
-            font-family: 'Titulo', sans-serif;
-            font-size: 19px;
-        }
-
-        .slogan{
-            font-family: 'Texto',sans-serif;
-            align-items: center;
-            text-align: center;
-        }
-
-    </style>
 </head>
-<header class="header-padrao">
-    <div class="header-esquerda">
-        <a class="ancoras-esquerda" href="../pages/cardapio.html">CARDAPIO</a>
-        <a class="ancoras-esquerda" href="../pages/sobre.html">SOBRE</a>
-        <a class="ancoras-esquerda" href="../pages/encomendas.html">ENCOMENDAS</a>
-    </div>
-    <img href="index.html" src="images\logo dioli branco.png" alt="Logotipo Dioli Caramelo" class="logo-header">
-    <div class="header-direita">
-        <a href="">
-            <img class="ancoras-direita" src="images\busca.png" alt="Buscar">
-        </a>
-        <a href="">
-            <img class="ancoras-direita" src="images\perfil.png" alt="Barra de Login-Cadastro/Meu Perfil">
-        </a>
-        <a href="">
-            <img class="ancoras-direita" src="images\carrinho.png" alt="Carrinho">
-        </a>
-    </div>
-</header>
-<body class="corpo-principal">
+<body>
+    <header>
+        <nav class="menu-esquerda">
+            <a class="ancoras-esquerda" href="../pages/cardapio.html">CARDAPIO</a>
+            <a class="ancoras-esquerda" href="../pages/sobre.html">SOBRE</a>
+            <a class="ancoras-esquerda" href="../pages/contatos.html">CONTATOS</a>
+        </nav>
+        <img href="index.html" src="images\logo dioli branco.png" alt="Logotipo Dioli Caramelo" class="logo-header" height="95px">
+        <nav class="menu-direita">
+            <a>
+                <img class="ancoras-direita" src="images\busca.png" alt="Buscar">
+            </a>
+            <a>
+                <img class="ancoras-direita" src="images\perfil.png" alt="Barra de Login-Cadastro/Meu Perfil">
+            </a>
+            <a>
+                <img class="ancoras-direita" src="images\carrinho.png" alt="Carrinho">
+            </a>
+        </nav>
+    </header>
     <div class="slogan">
         <h1 class="slogan-size">O melhor pedaço do seu dia!</h1>
     </div>
+    <section class="conteudo-principal">
+        <div class="principal-esquerda">
+            <p class="texto-principal">Bem-vindo(a) a Dioli!</p>
+            <a href="../dioli-confeitaria/pages/cardapio.html" class="botao-comprar">COMPRAR</a>
+        </div>
+        <div class="principal-direita">
+            <img src="images\logo dioli caramelo.png" alt="Logotipo Dioli Caramelo" class="teste" height="600px">
+        </div>
+    </section>
 </body>
 <footer>
 
