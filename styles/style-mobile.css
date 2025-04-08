@@ -88,7 +88,7 @@
     }
 
     .texto-principal{
-        color: var(--cor-marrom-intermediario);
+        color: white;
         font-size: 0.98rem;
         font-family: 'Textos';
     }
@@ -103,6 +103,10 @@
         margin: 2%;
         border-radius: 0.7rem;
         gap: 5%;
+        position: relative;
+        background: url('../images/torta.jpeg') no-repeat center center;
+        background-size: cover;
+        overflow: hidden
     }
 
     .botao-comprar{
@@ -111,11 +115,11 @@
         font-family: 'Textos';
         text-align: center;
         justify-content: center;
-        background-color: var(--cor-marrom-intermediario);
+        background-color: transparent;
         width: 150px;
         border-radius: 36px;
         text-decoration: none;
-        color: var(--cor-azul-claro) !important;
+        color: white !important;
     }
 
     .slogan-size{
@@ -177,6 +181,8 @@
     .botao-comprar:hover{
         transform: scale(1.05);  
         cursor: pointer;
+        background-color: var(--cor-marrom-intermediario);
+        color: white !important;
     }
 
     footer{
