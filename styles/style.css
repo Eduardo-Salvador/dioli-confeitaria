@@ -44,6 +44,11 @@ header {
     background-color: var(--cor-marrom-claro);
 }
 
+.logo-header{
+    height: 90px;
+    width: 110px;
+}
+
 .menu-esquerda{
     display: flex;
     justify-content: center;

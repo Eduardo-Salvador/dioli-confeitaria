@@ -41,8 +41,13 @@
         align-items: center; 
         text-align: center;
         padding: 0%, 5%;
-        height: 95px; 
+        height: 70px; 
         background-color: var(--cor-marrom-claro);
+    }
+
+    .logo-header{
+        height: 80px;
+        width: 80px;
     }
 
     .menu-esquerda{
